@@ -51,6 +51,15 @@ p {
     line-height: 1.5;
 }
 
+.relative {
+    position: relative;
+}
+.label.bottom-right {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
 /* popups without javascript */
 
 /* showing popup background */
