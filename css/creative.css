@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #CC0066;
+    color: #E62657;
 }
 
 h1,
@@ -164,7 +164,7 @@ div.popup > a.close.x {
 .bg-primary {
     /*background-color: #f05f40; rgba(240,95,64,.9);*/
     background-color: #65BFBF;
-    /*secondary CC0066*/
+    /*secondary E62657*/
 }
 
 .bg-bone {
