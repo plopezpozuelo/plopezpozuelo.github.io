@@ -59,6 +59,10 @@
         }
     })
 
+    // For adding html file to html
+    var cText = '<a href="carousel.html></a>'
+    document.write(cText)
+
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 

@@ -51,6 +51,16 @@ p {
     line-height: 1.5;
 }
 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-indicators {
+    bottom:2%;
+}
+
 .relative {
     position: relative;
 }
