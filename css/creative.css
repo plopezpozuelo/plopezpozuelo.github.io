@@ -31,6 +31,18 @@ a {
     transition: all .35s;
 }
 
+a.white {
+    color: #FFFFFF;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a.white:hover,
+a.white:focus {
+    color: #E62657;
+}
+
 a:hover,
 a:focus {
     color: #E62657;
