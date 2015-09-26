@@ -4,7 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
 (function($) {
     "use strict"; // Start of use strict
 
@@ -23,14 +22,13 @@
     })
 
     // Changes arrow when collapsed/expanded
-    $('.collapse').on('shown.bs.collapse', function(){
-        $(this).parent().find(".fa-chevron-down").removeClass("fa-chevron-down").addClass("fa-chevron-up");
-}).on('hidden.bs.collapse', function(){
-        $(this).parent().find(".fa-chevron-up").removeClass("fa-chevron-up").addClass("fa-chevron-down");
-    });
+    //     $('.collapse').on('shown.bs.collapse', function(){
+    //         $(this).parent().find(".fa-chevron-down").removeClass("fa-chevron-down").addClass("fa-chevron-up");
+    // }).on('hidden.bs.collapse', function(){
+    //         $(this).parent().find(".fa-chevron-up").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+    //     });
 
     // Fixes problem where first clicked expanded everything
-    $('#mytest1').click();
     $('.collapse').collapse('hide');
 
     // Highlight the top nav as scrolling occurs
